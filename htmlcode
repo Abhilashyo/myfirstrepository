@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>example</title>
+	</head>
+	<body>
+		<center>
+			<form >
+				<fieldset id="regForm" style="width:400px;" >
+					<legend align="center"><b>Registration Form</b></legend>
+					<table border="1" cellspacing="0" cellpadding="4">
+						<tr>
+							<td>First Name : </td>
+							<td><input type="text" name="fname" placeholder="Please enter First Name" autofocus=""></td>
+						</tr>
+						<tr>
+							<td>Last Name : </td>
+							<td><input type="text" name="lname" placeholder="Please enter Last Name"></td>
+						</tr>
+						<tr>
+							<td>Contact Number : </td>
+							<td><input type="number" name="phno" placeholder="Please enter contact number"></td>
+						</tr>
+						<tr>
+							<td>Email ID : </td>
+							<td><input type="email" name="eml" placeholder="Please enter Email Address"></td>
+						</tr>
+						<tr>
+							<td>Website URL : </td>
+							<td><input type="url" placeholder="Please enter Web site Url"></td>
+						</tr>
+						<tr>
+							<td>Date of Birth : </td>
+							<td><input type="date" name="dob" value="16-12-2020"></td>
+						</tr>
+						<tr>
+							<td>Abilities to learn new Technolgy : </td>
+							<td><input type="range" name="rge" min="1" max="100"></td>
+						</tr>
+						<tr>
+							<td>Time of Registration : </td>
+							<td><input type="time" value="00:00" step="1"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Submit"></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+		</center>
+	</body>
+</html>
